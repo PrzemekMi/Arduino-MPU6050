@@ -21,11 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef MPU6050_h
 #define MPU6050_h
 
-#if ARDUINO >= 100
 #include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
+
 
 #define MPU6050_ADDRESS             (0x68) // 0x69 when AD0 pin to Vcc
 
